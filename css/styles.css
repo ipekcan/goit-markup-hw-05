@@ -333,7 +333,6 @@ nav li.menu-contacts {
   padding: 188px 329px;
 }
 .hero-img-section button.btn-order-service {
-
   /* Button */
 
   /* Auto layout */
@@ -341,7 +340,7 @@ nav li.menu-contacts {
 
   padding: 16px 32px;
   gap: 10px;
-  
+
   /* IRIS */
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -372,7 +371,6 @@ button.btn-order-service:hover {
 
   /* OCEAN */
   background-color: #404bbf;
-  
 }
 
 .section {
@@ -577,9 +575,9 @@ svg.social-icon {
 
   opacity: 1;
 
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .text {
   /* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
@@ -692,6 +690,8 @@ project-card:hover .port-card-content {
 }
 .container-footer {
   width: 1154px;
+
+  display: block;
 }
 .div-footer {
   /* Text */
@@ -781,10 +781,15 @@ project-card:hover .port-card-content {
 }
 footer .footer-social-media {
   position: relative;
-  left: 450px;
+  left: 350px;
   top: -120px;
 
   width: 1000px;
+}
+footer .footer-subscribe {
+  position: relative;
+  left: 650px;
+  top: -300px;
 }
 .social-media-text {
   display: block;
@@ -828,4 +833,70 @@ li a .svg-footer {
 }
 li a:hover .svg-footer {
   fill: var(--color6);
+}
+
+.subscribe-text h5{
+  /* Body Medium */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+  color: #ffffff;
+}
+.subs-email-btn {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.subs-email {
+ width: 264px;
+ height:40px;
+ margin-left: 110px;
+  /* bg */
+
+  box-sizing: border-box;
+  color: #2e2f42;
+  background-color: #2e2f42;
+  /* WHITE
+
+Header background, team card background
+*/
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subs-email:focus,
+.subs-email:active {
+  color:#ffffff;
+}
+.subs-submit {
+  
+  /* button */
+  color:#ffffff;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+
+  /* IRIS */
+  background: #4d5ae5;
+  border-radius: 4px;
+  border: none;
+}
+.subs-svg {
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  fill: #ffffff;
 }
