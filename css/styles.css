@@ -2,7 +2,8 @@
   --color2: #2e2f42;
   --color3: #4d5ae5;
   --color4: #f4f4fd;
-  --color5: #31d0aa;
+  --color5: #404bbf;
+  --color6: #31d0aa;
 }
 html {
   height: 100vh;
@@ -505,12 +506,12 @@ svg.social-icon {
   position: relative;
 
   margin: 10px 5px;
-  fill: var(--color2);
+  fill: var(--color3);
   transition-property: fill;
   transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media li:hover a svg {
-  fill: var(--color5);
+  fill: var(--color6);
 }
 .our-portfolio {
   border-width: 0 0 1px 0;
@@ -821,10 +822,10 @@ li a .svg-footer {
   width: 40px;
   height: 40px;
   max-width: 40px;
-  fill: var(--color2);
+  fill: var(--color3);
   transition-property: fill;
   transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 li a:hover .svg-footer {
-  fill: var(--color5);
+  fill: var(--color6);
 }
